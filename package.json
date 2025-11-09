@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "nodets-template",
   "version": "1.0.0",
   "description": "A Node.js + TypeScript template with Express",
@@ -26,11 +26,5 @@
   },
   "dependencies": {
     "express": "^4.18.2"
-  },
-  "tsup": {
-    "entry": ["src/index.ts"],
-    "format": ["esm"],
-    "dts": true,
-    "clean": true
   }
 }
